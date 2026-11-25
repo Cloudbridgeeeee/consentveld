@@ -1,0 +1,11 @@
+{
+ "page": "dist/index.html",
+ "dir": "/home/user/consentveld",
+ "kind": "software",
+ "start": "2026-11-25T07:54:24.803Z",
+ "by": "start.mjs",
+ "url": null,
+ "root": "dist",
+ "category": "privacy compliance software",
+ "primary": "Book a demo"
+}

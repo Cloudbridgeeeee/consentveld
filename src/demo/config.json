@@ -1,0 +1,187 @@
+{
+  "name": "ConsentVeld",
+  "primary": "Book a demo",
+  "accent": "#1f6b3a",
+  "ink": "#0a0a0a",
+  "bg": "#f8f8f8",
+  "surface": "#eeeeee",
+  "fontLink": "<link href=\"https://fonts.googleapis.com/css2?family=Epilogue:wght@400..700&family=JetBrains+Mono:wght@400..500&display=swap\" rel=\"stylesheet\">",
+  "fontDisplay": "\"Epilogue\", system-ui, sans-serif",
+  "fontText": "\"Epilogue\", system-ui, sans-serif",
+  "client": "Lekki wellness store, Lagos",
+  "note": "A fixed register of 38 documents. Results here come from fixed data in your browser; no AI service is called.",
+  "tabs": {
+    "overview": "Register",
+    "records": "Documents",
+    "queue": "Comparisons to review"
+  },
+  "overview": {
+    "title": "Privacy register",
+    "kpis": [
+      [
+        "Documents",
+        "38"
+      ],
+      [
+        "Current",
+        "34"
+      ],
+      [
+        "Review due",
+        "4"
+      ],
+      [
+        "Preference records",
+        "6,120"
+      ]
+    ],
+    "chart": {
+      "title": "Days until next review, by document type",
+      "labels": [
+        "Notice",
+        "Cookie",
+        "DPA-C",
+        "DPA-P",
+        "Retain",
+        "Access",
+        "Breach",
+        "Request"
+      ],
+      "values": [
+        120,
+        90,
+        20,
+        25,
+        5,
+        60,
+        150,
+        80
+      ],
+      "threshold": 30,
+      "thresholdLabel": "30 days",
+      "caption": "Documents under the line get a reminder."
+    }
+  },
+  "records": {
+    "title": "Documents",
+    "searchHint": "Document or owner",
+    "statusCol": 3,
+    "columns": [
+      "Document",
+      "Type",
+      "Owner",
+      "Status",
+      "Version",
+      "Next step"
+    ],
+    "tones": {
+      "Gap found": "bad",
+      "Review due": "warn",
+      "Current": "good"
+    },
+    "rows": [
+      [
+        "Retention schedule",
+        "Internal policy",
+        "Zainab Kolo",
+        "Gap found",
+        "v1",
+        "Comparison to review"
+      ],
+      [
+        "Courier DPA",
+        "Processor",
+        "David Okon",
+        "Review due",
+        "v2",
+        "Comparison to review"
+      ],
+      [
+        "Payment provider DPA",
+        "Processor",
+        "David Okon",
+        "Review due",
+        "v5",
+        "Comparison to review"
+      ],
+      [
+        "Marketing consent wording",
+        "Preference",
+        "Zainab Kolo",
+        "Review due",
+        "v3",
+        "Comparison to review"
+      ],
+      [
+        "Privacy notice",
+        "Website",
+        "Zainab Kolo",
+        "Current",
+        "v4",
+        "Review in March"
+      ],
+      [
+        "Cookie notice",
+        "Website",
+        "David Okon",
+        "Current",
+        "v3",
+        "Review in February"
+      ],
+      [
+        "Breach response plan",
+        "Internal policy",
+        "Zainab Kolo",
+        "Current",
+        "v1",
+        "Review in April"
+      ],
+      [
+        "Staff access policy",
+        "Internal policy",
+        "David Okon",
+        "Current",
+        "v2",
+        "Review in January"
+      ],
+      [
+        "Data request procedure",
+        "Internal policy",
+        "Zainab Kolo",
+        "Current",
+        "v2",
+        "Review in February"
+      ]
+    ]
+  },
+  "queue": {
+    "title": "Comparisons waiting for review",
+    "lead": "Each comparison lists the gaps found and where. Nothing changes in the register until a reviewer confirms.",
+    "items": [
+      {
+        "id": "retention",
+        "title": "Retention schedule v1: 1 gap",
+        "detail": "Compared with NDPA 2023, 12 points.",
+        "reason": "No deletion period for order history."
+      },
+      {
+        "id": "courier",
+        "title": "Courier DPA v2: renewal check",
+        "detail": "Processor agreement, renews 12 January.",
+        "reason": "Sub-processor list not updated since 2025."
+      },
+      {
+        "id": "payment",
+        "title": "Payment provider DPA v5: 1 gap",
+        "detail": "Processor agreement.",
+        "reason": "Breach notice period not stated."
+      },
+      {
+        "id": "marketing",
+        "title": "Marketing consent wording v3",
+        "detail": "Preference record wording.",
+        "reason": "Withdrawal route not named in the email footer text."
+      }
+    ]
+  }
+}
